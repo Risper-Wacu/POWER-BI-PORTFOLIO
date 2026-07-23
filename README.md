@@ -1,22 +1,19 @@
-# Sales Insights of Electronics Shop
+## Sales Insights of Electronics Shop
 
-I had collected the sales data of an company selling hardware products of various range.
+### Overview
+Sales data analysis for a company selling hardware products across various ranges.
 
-The dataset given above is in sql format so we have to extract tables from it.
-I have extracted the follwing tables.
+### Data Preparation
+Extracted and modeled 5 tables from raw SQL data:
+Sales Market, Sales Product, Sales Transaction, Sales Date, Sales Customers
 
-1. Sales Market
-2. Sales Product
-3. Sales Transaction
-4. Sales Date 
-5. Sales Customers
+### Data Modeling
+Built relationships between the tables using a Star Schema in Power BI.
+[Star Schema.PNG]
 
-Now there was some relation between these four table which I have defined in POWER BI using star Schema which is as shown below.
+### Dashboard
+Built an interactive dashboard to surface sales insights.
+[Sales_Dashboard.PNG]
 
-![](https://github.com/Risper-Wacu/POWER-BI-PORTFOLIO/Star%20Schema.PNG?raw=true)
-
-then I have built an Interactive dashboard on these data revealing the insights from this data.
-
-#### Snips of Dashboard
-
-![](https://github.com/Risper-Wacu/POWER-BI-PORTFOLIO/Sales%20Dashboard%20SS.PNG?raw=true)
+### Tools Used
+Power BI, DAX, SQL, Star Schema Data Modeling
